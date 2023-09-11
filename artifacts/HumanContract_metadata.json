@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "happybirthday",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "howOldAreU",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"person.sol": "HumanContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"person.sol": {
+			"keccak256": "0xf34ada89aaca4aa27844d2cd23f7aaa00141a171a5322ac24765d8b6e152a434",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://ea48941959e1b5a82a6ba2f80c54490b1e15c39bef96bf4397f56a2ae7d8a6fe",
+				"dweb:/ipfs/Qmf64X5wKnqsBWLhcN8irHNuW5iuPqgLnFN1NcKRDuHHY2"
+			]
+		}
+	},
+	"version": 1
+}
